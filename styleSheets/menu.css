@@ -1,0 +1,25 @@
+dt {
+    font-weight: bold;
+    color: #8B705F;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 25px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #000;
+}
+
+.Price {
+    font-family: serif;
+    font-weight: normal;
+}
+
+.notes {
+    color: #8B705F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

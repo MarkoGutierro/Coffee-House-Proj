@@ -1,0 +1,17 @@
+article {
+    width: 100%;
+    float: left;
+    padding: 25px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #000;
+}
+
+article img {
+    float: left;
+    margin-right: 10px;
+}
+
+article p {
+    margin-top: 10px;
+}

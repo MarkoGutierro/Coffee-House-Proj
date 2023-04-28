@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+    Author: Marko Gutierro
+    Date: 03/21/2023
+-->
+<html lang="en">
+
+<head>
+    <title>Join Our Coffee Club</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styleSheets/main.css">
+    <link rel="stylesheet" href="./styleSheets/club.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./images/crownCoffeeLogo_white.png" alt="Picture of crown coffee logo">
+        <h1>Coffee Club</h1>
+        <div class="topnav">
+            &#x2022; <a href="index.html"> Home</a>
+            &#x2022; <a href="coffee.html"> Our Coffee</a>
+            &#x2022; <a href="coffeeGuide.html">Coffee Guide</a>
+            &#x2022; <a href="menu.html">Menu</a>
+            &#x2022; <a href="club.html">Club</a>
+            &#x2022; <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Crown Coffee Subcription</h2>
+            <p> Prefer to enjoy your coffee at home? No problem! Sign up for our Coffee Club and get the best coffee
+                delivered right to your door.</p>
+            <form action="" method="post">
+                <!-- Name -->
+                <label for="name">*Name:</label>
+                <input type="text" id="name" name="name" required>
+                <!-- Email -->
+                <label for="email">*Email</label>
+                <input type="text" id="email" name="email" required>
+                <!-- Password -->
+                <label for="pass">*Password</label>
+                <input type="password" id="pass" name="pass" minlength="8" maxlength="25" required>
+                <!-- Type of Bean (dropdown) -->
+                <label for="bean">Type of Bean</label>
+                <select id="bean" name="bean">
+                    <option value="volvo">Grounds</option>
+                    <option value="saab">Whole</option>
+                    <option value="fiat">Rounds</option>
+                </select>
+                <!-- Regular or Decaf (radio) -->
+                <fieldset>
+                    <legend>Regular or Decaf?</legend>
+                    <input type="radio" id="reg" name="reg_decaf" value="REG">
+                    <label for="reg">Regular</label><br>
+                    <input type="radio" id="decaf" name="reg_decaf" value="DECAF">
+                    <label for="decaf">Decaf</label><br>
+                </fieldset>
+                <!-- Type of Roast (checkbox) -->
+                <fieldset>
+                    <legend>Type of Roast</legend>
+                    <input type="checkbox" id="h_grogg" name="h_grogg" value="H Grogg">
+                    <label for="h_grogg"> Highlander Grogg</label><br>
+                    <input type="checkbox" id="c_swirl" name="c_swirl" value="C Swirl">
+                    <label for="c_swirl"> Cinnamon Swirl</label><br>
+                    <input type="checkbox" id="h_cream" name="h_cream" value="H Cream">
+                    <label for="h_cream"> Hazelnut Cream</label><br>
+                    <input type="checkbox" id="f_vanilla" name="f_vanilla" value="F Vanilla">
+                    <label for="f_vanilla"> French Vanilla</label><br>
+                    <input type="checkbox" id="b_nut" name="b_nut" value="B Nut">
+                    <label for="b_nut"> Blueberry Nut</label><br>
+                    <input type="checkbox" id="b_caramel" name="b_caramel" value="B Caramel">
+                    <label for="b_caramel"> Banana Caramel</label><br>
+                    <input type="checkbox" id="c_cherry" name="c_cherry" value="C Cherry">
+                    <label for="c_cherry"> Chocolate Cherry</label><br>
+                    <input type="checkbox" id="e_toffee" name="e_toffee" value="E Toffee">
+                    <label for="e_toffee"> English Toffee</label><br>
+                    <input type="checkbox" id="v_raspberry" name="v_raspberry" value="V Raspberry">
+                    <label for="v_raspberry"> Vanilla Raspberry</label><br>
+                </fieldset>
+                <!-- Additional Comments -->
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <!-- Submit or Reset Buttons -->
+                <div class="buttons">
+                    <input type="submit" value="Order Now">
+                    <input type="reset" value="Clear Form">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a id="contact" href="contact.html"> Hours and Locations</a>
+        <address>
+            <p>Developed by:<a href="markog.dev"> Marko Gutierro</a></p>
+        </address>
+    </footer>
+</body>
+
+</html>

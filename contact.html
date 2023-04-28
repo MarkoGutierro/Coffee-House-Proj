@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+    Author: Marko Gutierro
+    Date: 03/21/2023
+-->
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styleSheets/main.css">
+    <link rel="stylesheet" href="./styleSheets/contact.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./images/crownCoffeeLogo_white.png" alt="Picture of crown coffee logo">
+        <h1>Contact Us</h1>
+        <div class="topnav">
+            &#x2022; <a href="index.html"> Home</a>
+            &#x2022; <a href="coffee.html"> Our Coffee</a>
+            &#x2022; <a href="coffeeGuide.html">Coffee Guide</a>
+            &#x2022; <a href="menu.html">Menu</a>
+            &#x2022; <a href="club.html">Club</a>
+            &#x2022; <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Hours</h2>
+            <p>Mon &#8211; Fri: 5:30am to 8:00pm</p>
+            <p>Sat: 6:30am to 6:00pm</p>
+            <p>Sun: 7:30am to 2:00pm</p>
+        </section>
+        <section>
+            <h2>Location</h2>
+            <p>641 Marketplace Dr. Madison, WI</p>
+            <p>Call us at <a href="tel:6084420452">608-442-0452</a></p>
+        </section>
+        <form action="" method="post">
+            <!--Name-->
+            <label for="name">*Name:</label>
+            <input type="text" id="name" name="name" required>
+            <!-- Email -->
+            <label for="email">*Email</label>
+            <input type="text" id="email" name="email" required>
+            <!-- Phone -->
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <!--Subject Line -->
+            <label for="subject">*Subject Line</label>
+            <input type="text" id="subject" name="subject" required>
+            <!-- Message -->
+            <label for="message">*Message</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <!-- Submit or Reset Buttons -->
+            <div class="buttons">
+                <input type="submit" value="Order Now">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a id="contact" href="contact.html"> Hours and Locations</a>
+        <address>
+            <p>Developed by:<a href="markog.dev"> Marko Gutierro</a></p>
+        </address>
+    </footer>
+</body>
+
+</html>
