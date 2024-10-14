@@ -1,8 +1,8 @@
 # Coffee House Proj
-The Coffee House Project was a notable scholastic undertaking in which the objective was to construct a sophisticated and visually appealing website for a coffee house situated in Madison, WI. The prescribed theme was to be in a brown hue, evoking earthy undertones.
+The Coffee House Project was a school project in which the objective was to construct an engaging and visually appealing website for a coffee house situated in Madison, WI. The theme was to be in a brown hue, evoking earthy undertones.
 
-This project exemplified the fusion of compliance with guidelines and creative expression. While adhering to the specified requirements, I was able to inject my own imaginative flourishes, rendering the website distinct and personal.
+This project exemplifies my ability to comply with guidelines while still exhibiting my creativity. While adhering to the specified requirements, I was able to introduce my own ideas, rendering the website distinct and personal.
 
-Notably, the website flexed my knowledge in HTML forms, whereby I was tasked with the creation of expansive forms featuring a diversity of buttons, dropdowns, and text areas.
+One notable part of the development process was the creation of multiple HTML forms. I was tasked with developing various forms featuring a diversity of different form elements, such as buttons, dropdowns, and text areas.
 
-Overall, the website was a victory, as evinced by the positive grading it garnered. However, the true value of this endeavor lies in the development of my skills as a web developer, helping further my growth in this field.
+Overall, this was a fun project to work on. I received a high mark, which was nice as well. I am happy with the increased proficiency in web design and development that this project helped me garner.
